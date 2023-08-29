@@ -28,6 +28,7 @@
     - [Run tests](#run-tests)
   - [👥 Authors ](#-authors-)
   - [🔭 Future Features ](#-future-features-)
+  - [🤝 Contributing ](#-contributing-)
   - [⭐️ Show your support ](#️-show-your-support-)
   - [🙏 Acknowledgments ](#-acknowledgments-)
   - [📝 License ](#-license-)
@@ -150,6 +151,16 @@ Example command:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/egichuhis/leaderboard/issues).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- SUPPORT -->
 
 ## ⭐️ Show your support <a name="support"></a>
@@ -161,7 +172,7 @@ If you like this project, give it a ⭐️!
 <!-- ACKNOWLEDGEMENTS -->
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank [Microverse](https://www.microverse.org/) for this opportunity that has enabled me to learn a lot and grow my skills.
+I would like to thank Microverse for this opportunity that has enabled me to learn a lot and grow my skills.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
