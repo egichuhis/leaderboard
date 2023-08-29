@@ -1,5 +1,5 @@
 .container {
-  width: 70%;
+  width: 65%;
   margin: auto;
 }
 
@@ -8,12 +8,13 @@
   justify-content: space-between;
   align-items: flex-start;
   margin: 10px;
+  border: solid grey 1px;
 }
 
 .column {
   flex: 1;
   padding: 10px;
-  border: 1px solid #ccc;
+  border-right: 1px solid #ccc;
   box-sizing: border-box;
 }
 
@@ -26,17 +27,43 @@
 .scores-header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .refresh-btn {
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+  padding: 8px 12px 8px 12px;
+  height: fit-content;
 }
 
 .submit-btn-div {
   text-align: end;
+  width: 70%;
 }
 
 .submit-btn {
-  padding: 8px;
+  padding: 8px 12px 8px 12px;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
 }
+
+form input {
+  font-size: 18px;
+  width: 70%;
+}
+
+.labels-div {
+  display: flex;
+  flex-direction: column;
+}
+
+.labels-div label {
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+.labels-div label:nth-child(even) {
+  background-color: #ffffff;
+}
+
+
+
