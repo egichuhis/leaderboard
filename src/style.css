@@ -1,3 +1,42 @@
-body {
-  background-color: bisque;
+.container {
+  width: 70%;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 10px;
+}
+
+.column {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.scores-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.refresh-btn {
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.submit-btn-div {
+  text-align: end;
+}
+
+.submit-btn {
+  padding: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
 }
