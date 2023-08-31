@@ -32,7 +32,9 @@ const createGameScore = async () => {
   };
 
   try {
+    Swal.showLoading();
     const response = await fetch(url, requestOptions);
+    Swal.close();
 
     if (response.ok) {
       Toast.fire({
@@ -45,7 +47,11 @@ const createGameScore = async () => {
 
     clearInputs();
   } catch (error) {
-    throw new Error('Something went wrong, please try again', error);
+    Swal.fire({
+      icon: 'error',
+      title: 'Error',
+      text: 'Something went wrong, please try again',
+    });
   }
 };
 
