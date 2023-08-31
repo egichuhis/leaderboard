@@ -7,7 +7,7 @@ const getGameID = () => {
     const gameID = JSON.parse(savedGameID);
     return gameID;
   }
-  createNewGame();
+  return createNewGame();
 };
 
 export default getGameID;
