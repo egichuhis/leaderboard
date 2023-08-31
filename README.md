@@ -157,7 +157,7 @@ Example command:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Final UI/UX touches.**
+- [ ] **Add registration and login.**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
