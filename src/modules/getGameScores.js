@@ -16,7 +16,7 @@ const getGameScores = async () => {
     const userScores = data.result;
     showUserScores(userScores);
   } catch (error) {
-    // return error;
+    throw new Error('Something went wrong, please try again', error);
   }
 };
 

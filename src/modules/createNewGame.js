@@ -27,7 +27,7 @@ const createNewGame = async () => {
       saveGameID(extractedId);
     }
   } catch (error) {
-    // return error;
+    throw new Error('Something went wrong, please try again', error);
   }
 };
 

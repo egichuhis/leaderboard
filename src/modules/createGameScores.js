@@ -27,7 +27,7 @@ const createGameScore = async () => {
 
     clearInputs();
   } catch (error) {
-    // return error;
+    throw new Error('Something went wrong, please try again', error);
   }
 };
 
