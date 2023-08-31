@@ -50,7 +50,13 @@
   <summary>CSS</summary>
 </details>
 <details>
+  <summary>JavaScript</summary>
+</details>
+<details>
   <summary>Webpack</summary>
+</details>
+<details>
+  <summary>Leaderboard API</summary>
 </details>
 
 <!-- Features -->
@@ -58,6 +64,11 @@
 ### Key Features <a name="key-features"></a>
 
 - **Leaderboard basic structure layout**
+- **Create new game by calling API**
+- **Save game ID to localStorage**
+- **Post game scores to API**
+- **Fetch game scores from API**
+- **Show fetched user scores on website**
   
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -146,7 +157,6 @@ Example command:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Send and receive data from API.**
 - [ ] **Final UI/UX touches.**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
