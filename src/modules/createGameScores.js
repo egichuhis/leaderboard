@@ -1,3 +1,4 @@
+import clearInputs from './clearInputs.js';
 import getGameID from './getGameID.js';
 
 const id = getGameID();
@@ -25,8 +26,8 @@ const createGameScore = async () => {
     }
 
     const data = await response.json();
-    console.log('Asimiiioo');
     console.log(data);
+    clearInputs();
   } catch (error) {
     // return error;
   }

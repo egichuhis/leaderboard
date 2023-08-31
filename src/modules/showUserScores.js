@@ -1,11 +1,13 @@
 const showUserScores = (scores) => {
   const labelsDiv = document.getElementById('labels-div');
   labelsDiv.innerHTML = '';
-  scores.forEach((scoreObj) => {
+  const labels = scores.map((scoreObj) => {
     const label = document.createElement('label');
     label.innerHTML = `${scoreObj.user}:${scoreObj.score}`;
-    labelsDiv.appendChild(label);
+    return label;
   });
+
+  labelsDiv.append(...labels);
 };
 
 export default showUserScores;
